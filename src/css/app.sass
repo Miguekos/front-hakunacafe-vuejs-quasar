@@ -1,0 +1,115 @@
+// app global css in Sass form
+.custom
+  background-color: #d0cecf
+
+@font-face
+  font-family: Alegra
+  //src: url(./fonts/Alegra.otf)
+  //src: url(./fonts/Nilam-Bold.ttf)
+  //src: url(./fonts/Nilam.ttf)
+  //src: url(./fonts/SweetyStrawberry.ttf)
+  //src: url(./fonts/EuropeUnderground_black.ttf)
+  //src: url(./fonts/Montserrat-Bold.ttf)
+  //src: url(./fonts/Montserrat-Regular.ttf)
+  // src: url(./fonts/Roboto-Regular.ttf)
+  src: url(./fonts/montserrat/Montserrat-Regular.otf)
+
+// declare a class which applies it
+.my-font
+  font-family: 'Alegra'
+
+  .headercustom
+    //background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%)
+    background-color: #2878be
+
+  .customtabs
+//background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%)
+  background-image: linear-gradient(-200deg, #ffffff 40%, #9abbee 60%, #DEF3F8 100%)
+
+.my-sticky-header-column-table
+  /* height or max-height is important */
+  max-height: 68vh
+
+  /* specifying max-width so the example can
+    highlight the sticky column on any browser window */
+  max-width: 100%
+
+  td:first-child
+    /* bg color is important for td; just specify one */
+    background-color: #c1f4cd !important
+
+  tr th
+    position: sticky
+    /* higher than z-index for td below */
+    z-index: 2
+    /* bg color is important; just specify one */
+    background: #fff
+
+  /* this will be the loading indicator */
+
+
+
+  thead tr:last-child th
+    /* height of all previous header rows */
+    top: 48px
+    /* highest z-index */
+    z-index: 3
+
+  thead tr:first-child th
+    top: 0
+    z-index: 1
+
+  tr:first-child th:first-child
+    /* highest z-index */
+    z-index: 3
+
+  td:first-child
+    z-index: 1
+
+  td:first-child, th:first-child
+    position: sticky
+    left: 0
+
+
+.my-sticky-header-column-table-movimiento
+  /* height or max-height is important */
+  max-height: 68vh
+
+  /* specifying max-width so the example can
+    highlight the sticky column on any browser window */
+  max-width: 100%
+
+  //td:first-child
+  //  /* bg color is important for td; just specify one */
+  //  background-color: #c1f4cd !important
+
+  tr th
+    position: sticky
+    /* higher than z-index for td below */
+    z-index: 2
+    /* bg color is important; just specify one */
+    background: #fff
+
+  /* this will be the loading indicator */
+
+
+  thead tr:last-child th
+    /* height of all previous header rows */
+    top: 48px
+    /* highest z-index */
+    z-index: 3
+
+  thead tr:first-child th
+    top: 0
+    z-index: 1
+
+  tr:first-child th:first-child
+    /* highest z-index */
+    z-index: 3
+
+  td:first-child
+    z-index: 1
+
+  td:first-child, th:first-child
+    position: sticky
+    left: 0
